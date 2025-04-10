@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 👋 Car Spot Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Mobile app for tracking car sales listings. Includes react native app and web scrapper running on separate express server.
 
-## Get started
+---
+## 📋 Table of Contents
 
-1. Install dependencies
+1. [About The Project](#about)  
+2. [Built With](#built)  
+3. [Features User](#user)  
+4. [Features Admin](#admin)  
+5. [Details](#details)  
+6. [Left TO DO](#todo)  
+7. [Screenshots](#screenshots)  
+---
 
-   ```bash
-   npm install
-   ```
+<a name="about"></a>
+### 📖 About The Project
 
-2. Start the app
+Short description:
+- **Purpose:** To make process of browsing and tracking car listings on www.mobile.de marketplace easier.
+- **Key features:** user friendly and responsive mobile app, web screpper built with puppeteer, local notifications, background process.
 
-   ```bash
-    npx expo start
-   ```
+<a name="inspiration"></a>
+### 💡 Inspiration
+-About a year ago i was asked by car deler who buys cars using mobile.de to build him mobile app that would help him track car listings and get notified about relevant changes. Back then i was not able to build it but i gave myself a challange to someday build it and that day has come!
+-The idea is to enter search criteria for cars of your interest. Then application using web scraper (since mobile.de doesn't have API for that) takes data from their site and stores it in local SQLite database. It is also possible to remove specific listing from that list or to "Park" it which saves it to bookmarked and marks it as "specialy interesting".
 
-In the output, you'll find options to open the app in a
+<a name="built"></a>
+### 🛠️ Built With
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+List of major frameworks, libraries, and tools:
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Axios](https://github.com/axios/axios) (for API calls)
+- [SQLite](https://sqlite.org/)
+- [Expo GO](https://expo.dev/go)
+- [Drizzle ORM](https://orm.drizzle.team/)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<a name="features"></a>
+### 📱 Features
 
-## Get a fresh project
+- **Search Mechanism:** Enter search criteria that you want.
+- **Car List:** Browse through a list of relevant listings.
+- **Bookmarks:** Add or remove specialy interesting cars.
+- **Notifications:** Get notified on any relevant changes related to saved listings.
+- **Avaliability:** Available on android and ios.
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<a name="todo"></a>
+### 📖 Left TO DO:
+- **Visit listing:** Provide link to real listing.
+- **Fix version problems:** Some version mismatch blocks production build.
+- **Improve notifications and db connection problem**
+- **Improve UI and UX:** There are few small things related to search and home page that could be frustrating to end users.
+<a name="screenshots"></a>
+### 📷 Screenshots
