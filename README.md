@@ -54,7 +54,7 @@ List of major frameworks, libraries, and tools:
 - **Improve UI and UX:** There are few small things related to search and home page that could be frustrating to end users.
 <a name="screenshots"></a>
 ### 📷 Screenshots
-- First Page <img src="images/firstPage.jpg" width="320" height="480" />
+- First Page <img src="images/firstPage.jpg" width="1024" height="768" />
 - Search Page ![Search Page](images/search.jpg)
 - Bookmarks Page![Bookmarks Page](images/bookmarks.jpg)
 - Notifications ![Notifications](images/notifications.jpg)
