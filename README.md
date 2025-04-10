@@ -30,12 +30,12 @@ Short description:
 ### 🛠️ Built With
 
 List of major frameworks, libraries, and tools:
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/) (for cross platform mobile apps)
+- [Expo](https://expo.dev/) (platform for making universal native apps)
 - [Axios](https://github.com/axios/axios) (for API calls)
-- [SQLite](https://sqlite.org/)
-- [Expo GO](https://expo.dev/go)
-- [Drizzle ORM](https://orm.drizzle.team/)
+- [SQLite](https://sqlite.org/) (Lightweight local database)
+- [Expo GO](https://expo.dev/go) (easy way to test app on mobile device)
+- [Drizzle ORM](https://orm.drizzle.team/) (easy way to communicate with SQL database using JavaScript or TypeScript)
 
 <a name="features"></a>
 ### 📱 Features
