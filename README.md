@@ -56,6 +56,8 @@ List of major frameworks, libraries, and tools:
 ### 📷 Screenshots
 - First Page
 - <img src="images/firstPage.jpg" width="300" />
+- Home Page
+- <img src="images/home.jpg" width="300" />
 - Search Page
 - <img src="images/search.jpg" width="300" />
 - Bookmarks Page
