@@ -5,13 +5,12 @@
 ---
 ## 📋 Table of Contents
 
-1. [About The Project](#about)  
-2. [Built With](#built)  
-3. [Features User](#user)  
-4. [Features Admin](#admin)  
-5. [Details](#details)  
-6. [Left TO DO](#todo)  
-7. [Screenshots](#screenshots)  
+1. [About The Project](#about)
+2. [Inspiration](#inspiration)
+3. [Built With](#built)  
+4. [Features](#features)  
+5. [Left TO DO](#todo)  
+6. [Screenshots](#screenshots)  
 ---
 
 <a name="about"></a>
@@ -24,6 +23,7 @@ Short description:
 <a name="inspiration"></a>
 ### 💡 Inspiration
 -About a year ago i was asked by car deler who buys cars using mobile.de to build him mobile app that would help him track car listings and get notified about relevant changes. Back then i was not able to build it but i gave myself a challange to someday build it and that day has come!
+
 -The idea is to enter search criteria for cars of your interest. Then application using web scraper (since mobile.de doesn't have API for that) takes data from their site and stores it in local SQLite database. It is also possible to remove specific listing from that list or to "Park" it which saves it to bookmarked and marks it as "specialy interesting".
 
 <a name="built"></a>
